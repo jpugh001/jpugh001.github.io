@@ -1,7 +1,12 @@
-# jpugh001.github.io
+#This is a Title
+>warning
+<This is a test>
 
-Jane Pugh- jepugh.my.waketech.edu
 
-This is my school account.
+## jpugh001.github.io
 
-This repository will hold assignments for CTI-110.
+-Jane Pugh- jepugh.my.waketech.edu
+
+-This is my school account.
+
+-This repository will hold assignments for CTI-110.
