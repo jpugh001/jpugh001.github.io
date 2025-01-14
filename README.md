@@ -1,2 +1,7 @@
 # jpugh001.github.io
-Lab 1
+
+Jane Pugh- jepugh.my.waketech.edu
+
+This is my school account.
+
+This repository will hold assignments for CTI-110.
