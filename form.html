@@ -8,15 +8,46 @@
     </head>
     <body>
         <!-- Form setup for local testing with html-only client side validation--><form aciton="#" method="post" onsubmit="return false;">
+    <fieldset>
+        <legend>Personal Info</legend>
         <label for="name">Name:</label>
-        <input type= "text" id="name" name="name"> <br><br>
+        <input type= "text" id="name" name="name" required minlength="2"> <br><br>
+        <!--password-->
         <label for="pwd">Password:</label>
-        <input type="password" id="pwd" name="pwd"> <br><br>
+        <input type="password" id="pwd" name="pwd" required minlength="6"> <br><br>
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" name="birthday"> <br></br>
+        <!--gender-->
         <label for="gender">Gender:</label>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br><br>
+    </fieldset>
+        <!--vehicle type-->
+    <fieldset>
+        <legend>Vehicle</legend>
+        <label for="vehicle">Choose Vehicle:</label>
+        <input type="checkbox" id="car" name="vehicle" value="car">
+        <label for="car">Car</label>
+        <input type="checkbox" id="bike" name="vehicle" value="bike">
+        <label for="bike">Bike</label>
+        <input type="checkbox" id="boat" name="vehicle" value="boat">
+        <label for="boat">Boat</label>
+        <input type="checkbox" id="horse" name="vehicle" value="horse">
+        <label for="horse">Horse</label>
+    </fieldset>
+        <br></br>
+        <label for="fruits">Choose a fruit:</label>
+        <select id="fruits" name="fruits">
+            <option value="select">Select</option>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+            <option value="date">Date</option>
+            <option value="elderberry">Elderberry</option> <br></br>
+        <!--submission button-->
+        <input type="submit" value="submit">
         </form>
     </body>
 </html>
