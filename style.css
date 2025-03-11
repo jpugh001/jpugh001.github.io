@@ -38,3 +38,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+fieldset {
+    background-color: darkseagreen;
+}
+
+legend {
+    background-color: thistle;
+    color:lightslategrey;
+    padding: 5px 10px; 
+}
+input {
+    margin: 5px
+}
