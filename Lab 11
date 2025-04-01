@@ -1,5 +1,18 @@
 1) How do the three languages declare and assign variables? Do they require specific data type declaration?
+*Python represents declares a variable with as variable name = data type(data origin/location) 
+*Javascript declares a variable with the var command. It then assigns value to the declared variable.
+*Similar to Javascript, C++ declares a variable by stating data type = variable name and assigns value through simple commands.
 2) How do the languages represent conditional statements? What syntax variations do you notice?
+*Python uses a "while" command and "if" and "else" commands. The output value is presented with a print("output") command
+*Javascript uses if and else statements nested in the while statement 
+*C++ presents formats the while command similarly to flowgorithm, except the and value is represented by &&.  
 3) How do the languages structure loops, particularly the while loop used in your guessing game?
+*Python prompts the user to input a number, which is again run throught the 'while' sequence. 
+*After the if and else statements, the program prompts another gueaa within the while statement.
+*Prompts another guess with the cin >> function.
 4) How do each of these languages handle output to the console?
+*Python uses the print command to display output.
+*Javascript uses the window.alert command to display output.
+*C++ handles output by the cout << "output" << end1, sometimes on its own sometimes within other functions. 
 5) What differences do you notice in the general syntax and structure of the three languages?
+Python and Javascript have much more concise structures than C++. Python in particular assigns and declares a variable with the same command and does not repeat commands which Javascript and C++ both do. All othem have a similar phrasing convention for operaters etc.
