@@ -10,7 +10,7 @@
 The server part is crucial because it:
 - **Handles Requests**: It receives requests from users' browsers (like when someone clicks a link or submits a form).
 - **Processes Data**: It can retrieve or save data to a database based on user interactions.
-- **Sends Responses**: It sends data back to the browser, which can be a complete webpage, an update to part of a page, or just data (like in APIs).
+- **Sends Responses**: It sends data back to the browser, which can be a complete webpage, an update to part of a page, or just data (like in APIs which can be created with express).
 
 #### When to Use Flask, Spring Boot, or Express?
 
@@ -79,7 +79,7 @@ flowchart TB
 
 ## Javascript and Node.js
 
-**Node.js** is a **JavaScript runtime environment** built on Chrome’s **V8 engine**. It lets you run JavaScript **outside of the browser** — like on a server.
+**Node.js** is a **JavaScript runtime environment** built on Chrome’s **V8 engine**. It lets you run JavaScript **outside of the browser** — like on a server. --node allows Javascript to be used in backend development
 
 ### ✨ Why is this a big deal?
 Before Node.js:
