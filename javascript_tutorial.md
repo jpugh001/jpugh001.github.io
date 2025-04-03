@@ -24,7 +24,8 @@
 
 ### 3. Basic Syntax and Concepts
 1. **Variables and Data Types**
-   - Declaring variables using `let` and `const`.
+   - Declaring variables using the assignment statements `let` and `const`.
+     Variable reserves memory location
    - Basic data types in JavaScript: Numbers, Strings, Booleans, and Arrays.
 
 ### Run Frontend (browser)
