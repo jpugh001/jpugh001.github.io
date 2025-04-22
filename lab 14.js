@@ -4,10 +4,13 @@ function fetchGradeData() {
     let apiroute = "/api/grade";
     xhr.onreadystylechange = function(){
         let reults;
-        if (xhr.status !-- 200){
-            console.error ("Could not get grades.Status: ${xhr.status}');
+        if (xhr.readyState === xhr.DONE){
+            if(xhr.status !== 200){
+            console.error (`Could not get grades. 
+                Status: ${xhr.status}`);
         }
         populateGradeBook(JSON.parse(xhr.responseText));
+    }
     }.bind(this);
     xhr.open("get",apiroute, true);
     xhr.send();
@@ -18,7 +21,7 @@ function populateGradebook(data) {
     data.forEach(function(assignment){
         let row = document.createElement("tr");
         let columns= [];
-        coumns.name = document.createElement('td);
+        columns.name = document.createElement('td');
         columns.grade.appendChild(
             document.createTextNode(assignment.total_grade)
         );
